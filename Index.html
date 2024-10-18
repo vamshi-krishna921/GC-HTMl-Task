@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Project</title>
+  </head>
+  <body>
+    <h1>HTML <small>(HyperText Markup Language)</small></h1>
+    <p>
+      It is standard language used to create and design
+      <a href="https://www.w3schools.com/html/">Web Pages</a> on internet
+    </p>
+    <h2>1. HTML is an ?</h2>
+    <ol type="i">
+      <li>Markup Language</li>
+      <li>Programming Language</li>
+      <li>None of these</li>
+      Ans: i
+    </ol>
+    <h2>2. CSS is used for</h2>
+    <ol type="i">
+      <li>Stlying</li>
+      <li>Scripting</li>
+      <li>None of these</li>
+      Ans: i
+    </ol>
+
+    <table border="1px solid black">
+      <thead>
+        <tr>
+          <th colspan="6">TIME TABLE</th>
+        </tr>
+        <tr>
+          <th>Day/Period</th>
+          <th>I</th>
+          <th>II</th>
+          <th></th>
+          <th>III</th>
+          <th>IV</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Monday</th>
+          <td>Eng</td>
+          <td>Math</td>
+          <td rowspan="6">LUNCH</td>
+          <td>EVS</td>
+          <td>Hindi</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>Eng</td>
+          <td>Math</td>
+          <td>EVS</td>
+          <td>Hindi</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td colspan="2">LAB</td>
+
+          <td>EVS</td>
+          <td>Hindi</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>Eng</td>
+          <td>Math</td>
+          <td>EVS</td>
+          <td>Hindi</td>
+        </tr>
+        <tr>
+          <th>Friday</th>
+          <td colspan="2">SEMINAR</td>
+          <td colspan="2">Sport's</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">School Timing : 10:00 am to 4:00 pm</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h3>Create Form Challenge</h3>
+    <p>
+      Please share your personal <br />
+      details here :
+    </p>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="Firstname">First name</label>
+        <br /><br />
+        <input type="text" name="Firstname" id="Firstname" required />
+        <br /><br />
+        <label for="Lastname">Last name</label>
+        <br />
+        <input type="text" name="Firstname" id="Firstname" required />
+        <br /><br />
+        <label for="Birthday">Birthday</label>
+        <br />
+        <input type="date" name="Birthday" id="Birthday" required />
+        <br /><br />
+      </fieldset>
+      <h3>Can u tell a little more</h3>
+      <fieldset>
+        <legend>Further Information</legend>
+        <label for="Favcolor">Favorite Color : </label>
+        <input type="color" name="Color" id="Favcolor" />
+        <br /><br />
+        <label for="pet">What's your Favorite pet?</label>
+        <br />
+        <input type="text" name="favpet" id="pet" />
+        <br /><br />
+        <label for="like">Do you like :</label>
+        <br />
+        <input type="radio" name="like" id="Mountains" />
+        <label for="Mountains">Mountains</label>
+        <input type="radio" name="like" id="beaches" />
+        <label for="beaches">beaches</label>
+      </fieldset><br>
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
